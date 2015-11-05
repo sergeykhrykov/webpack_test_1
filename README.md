@@ -3,7 +3,7 @@
 Sample repo for testing three.js installation using npm and webpack.
 
 Usage:
-* git clone 
+* git clone https://github.com/sergeykhrykov/webpack_test_1.git
 * npm i
 * npm start
 
