@@ -51,10 +51,10 @@
 
 	// Webpack-releated code was added here
 	var THREE = __webpack_require__(1);
-	var Detector = __webpack_require__(2);
-	var dat = __webpack_require__(3);
-	var OrbitControls = __webpack_require__(6)(THREE);
-	var TeapotBufferGeometry = __webpack_require__(7)(THREE);
+	var Detector = __webpack_require__(3);
+	var dat = __webpack_require__(4);
+	var OrbitControls = __webpack_require__(7)(THREE);
+	var TeapotBufferGeometry = __webpack_require__(8)(THREE);
 
 				if ( ! Detector.webgl ) Detector.addGetWebGLMessage();
 
@@ -395,6 +395,13 @@
 
 /***/ },
 /* 1 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(global) {module.exports = global["THREE"] = __webpack_require__(2);
+	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
+
+/***/ },
+/* 2 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;var self = self || {};// File:src/Three.js
@@ -36587,7 +36594,7 @@
 
 
 /***/ },
-/* 2 */
+/* 3 */
 /***/ function(module, exports) {
 
 	/**
@@ -36666,14 +36673,14 @@
 
 
 /***/ },
-/* 3 */
+/* 4 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(4)
-	module.exports.color = __webpack_require__(5)
+	module.exports = __webpack_require__(5)
+	module.exports.color = __webpack_require__(6)
 
 /***/ },
-/* 4 */
+/* 5 */
 /***/ function(module, exports) {
 
 	/**
@@ -40338,7 +40345,7 @@
 	dat.utils.common);
 
 /***/ },
-/* 5 */
+/* 6 */
 /***/ function(module, exports) {
 
 	/**
@@ -41098,7 +41105,7 @@
 	dat.utils.common);
 
 /***/ },
-/* 6 */
+/* 7 */
 /***/ function(module, exports) {
 
 	module.exports = function(THREE) {
@@ -42223,7 +42230,7 @@
 
 
 /***/ },
-/* 7 */
+/* 8 */
 /***/ function(module, exports) {
 
 	/**

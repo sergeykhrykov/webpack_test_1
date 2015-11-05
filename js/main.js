@@ -4,7 +4,7 @@
 			/*global THREE, Detector, container, dat, window */
 
 // Webpack-releated code was added here
-var THREE = require('three');
+var THREE = require('expose?THREE!three');
 var Detector = require('detector.js');
 var dat = require('dat-gui');
 var OrbitControls = require('three-orbit-controls')(THREE);
