@@ -13,5 +13,10 @@ module.exports = {
    modulesDirectories: ['node_modules', 'js/vendor']
  },
 
-  devtool: "#cheap-module-source-map" 
+  devtool: "#cheap-module-source-map" ,
+
+  watch: true,
+  watchOptions:{
+    aggregateTimeout: 100
+  }
 };

@@ -41102,7 +41102,7 @@
 /***/ function(module, exports) {
 
 	module.exports = function(THREE) {
-		var MOUSE = THREE.MOUSE
+		var MOUSE = THREE.MOUSE;
 		if (!MOUSE)
 			MOUSE = { LEFT: 0, MIDDLE: 1, RIGHT: 2 };
 
