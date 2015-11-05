@@ -1,0 +1,21 @@
+{
+  "name": "three_2",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "dat-gui": "^0.5.0",
+    "three": "^0.73.0",
+    "three-orbit-controls": "^72.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^1.12.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack"
+  },
+  "author": "",
+  "license": "ISC"
+}
