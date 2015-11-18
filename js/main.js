@@ -11,7 +11,7 @@ var OrbitControls = require('three-orbit-controls')(THREE);
 var TeapotBufferGeometry = require('TeapotBufferGeometry.js')(THREE);
 
 if (!Detector.webgl) Detector.addGetWebGLMessage();
-
+//
 var camera, scene, sceneCube, renderer;
 var cameraControls;
 var effectController;
