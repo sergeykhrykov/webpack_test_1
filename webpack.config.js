@@ -11,7 +11,7 @@ module.exports = {
     path: './dist',
     filename: 'bundle.js'
   },
-//
+
   module: {
     loaders: [{
       test: /\.js$/,
